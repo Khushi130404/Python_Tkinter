@@ -13,7 +13,7 @@ def write_digit(digit):
 def clear():
     result_label.config(text="")
 
-def operator(op):
+def get_operator(op):
     global first_number,operator
     first_number = int(result_label['text'])
     operator = op
@@ -32,7 +32,7 @@ def get_result():
         if second_number==0:
             result_label.config(text='Error')
         else:
-            result_label.config(text=str(first_number / second_number,2))
+            result_label.config(text=str(round(first_number / second_number)))
 
 
 root = Tk()
@@ -54,7 +54,7 @@ for i in range(4):
         if i<3 and j<3 or text_arr[i][j]=="0":
             btn.config(command=lambda text=text_arr[i][j]: write_digit(text))
         elif j==3:
-            btn.config(command=lambda text=text_arr[i][j]: operator(text))
+            btn.config(command=lambda text=text_arr[i][j]: get_operator(text))
         elif i==3 and j==1:
             btn.config(command=clear)
         else:
