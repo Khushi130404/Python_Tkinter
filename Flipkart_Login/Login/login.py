@@ -11,7 +11,10 @@ text_label.pack(pady=(50,10))
 text_label.config(font=('Verdana',22))
 
 email_label = Label(root,text="Enter Email",fg='#f4f4f4',bg='#0096DC')
-email_label.pack(pady=(20,20))
+email_label.pack(pady=(25,15))
 email_label.config(font=('Verdana',12))
+
+email_input = Entry(root,width=50)
+email_input.pack(ipady=6,pady=(1,5))
 
 root.mainloop()
