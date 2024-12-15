@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ba49823-5054-49ae-bee8-8f57b2a3e170" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/flipkart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flipkart_Login/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flipkart_Login/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flipkart_Login/logo.png" beforeDir="false" />
-    </list>
+    <list default="true" id="3ba49823-5054-49ae-bee8-8f57b2a3e170" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +34,7 @@
     "Python.login.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Login",
+    "git-widget-placeholder": "Wallpaper",
     "last_opened_file_path": "C:/Users/Khushi/PycharmProjects/Flipkart_Login/Flipkart_Login"
   }
 }]]></component>
