@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ba49823-5054-49ae-bee8-8f57b2a3e170" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/Login/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/Login/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/Scripts/Activate.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/Scripts/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/Scripts/activate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/Scripts/deactivate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/Scripts/pip.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/Scripts/pip3.12.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/Scripts/pip3.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/Scripts/python_d.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/Scripts/pythonw_d.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flipkart_Login/Login/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flipkart_Login/Login/login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
