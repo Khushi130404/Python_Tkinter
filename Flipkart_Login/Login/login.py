@@ -1,4 +1,14 @@
 from tkinter import *
+from tkinter import messagebox
+
+def handle_login():
+    e = email_input.get()
+    p = pass_input.get()
+
+    if e=="abc@gmail.com" and p=="abc":
+        messagebox.showinfo("Success","Login Successful")
+    else:
+        messagebox.showerror("Error","Login Failed")
 
 root = Tk()
 root.title("Flipkart")
@@ -24,7 +34,7 @@ pass_label.config(font=('Verdana',12))
 pass_input = Entry(root,width=40)
 pass_input.pack(ipady=6,pady=(1,5))
 
-login_button = Button(root,text='Login',bg='#f4f4f4',fg='black',width=20,height=2)
+login_button = Button(root,text='Login',bg='#f4f4f4',fg='black',width=20,height=2,command=handle_login)
 login_button.pack(pady=(40,20))
 login_button.config(font=('verdana',10))
 
