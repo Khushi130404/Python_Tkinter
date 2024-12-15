@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ba49823-5054-49ae-bee8-8f57b2a3e170" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Flipkart_Login/wallpaper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flipkart_Login/Image/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Flipkart_Login/Image_2/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flipkart_Login/Image/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Flipkart_Login/Image_2/img_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flipkart_Login/Image/img_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Flipkart_Login/Image_2/img_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flipkart_Login/Image/img_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Flipkart_Login/Image_2/img_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flipkart_Login/Image/img_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Flipkart_Login/Image_2/img_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flipkart_Login/wallpaper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flipkart_Login/wallpaper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
