@@ -13,6 +13,27 @@ def write_digit(digit):
 def clear():
     result_label.config(text="")
 
+def operator(op):
+    global first_number,operator
+    first_number = int(result_label['text'])
+    operator = op
+    result_label.config(text="")
+
+def get_result():
+    global first_number,second_number,operator
+    second_number = int(result_label['text'])
+    if operator=='+':
+        result_label.config(text=str(first_number+second_number))
+    elif operator=='-':
+        result_label.config(text=str(first_number - second_number))
+    elif operator=='*':
+        result_label.config(text=str(first_number * second_number))
+    else:
+        if second_number==0:
+            result_label.config(text='Error')
+        else:
+            result_label.config(text=str(first_number / second_number,2))
+
 
 root = Tk()
 root.title("Calculator")
@@ -32,8 +53,12 @@ for i in range(4):
         btn = Button(root, text=text_arr[i][j], bg='#00a65a', fg='white', width=5, height=2)
         if i<3 and j<3 or text_arr[i][j]=="0":
             btn.config(command=lambda text=text_arr[i][j]: write_digit(text))
+        elif j==3:
+            btn.config(command=lambda text=text_arr[i][j]: operator(text))
         elif i==3 and j==1:
             btn.config(command=clear)
+        else:
+            btn.config(command=get_result)
         btn.grid(row=i+1,column=j+1)
         btn.config(font=('verdana',14))
         b_arr.append(btn)
