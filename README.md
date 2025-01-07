@@ -39,3 +39,11 @@ Features:
 - Dynamic image loading
 
 - Smooth animation effect
+
+## Dependencies:
+
+- Python 3.x
+
+- Tkinter (comes pre-installed with Python)
+
+- PIL (Python Imaging Library)
